@@ -22,7 +22,7 @@ On clicking on a category, a list of food or drinks available on our app will be
 
 ## User Story
 
-* The user want to search for a job name and description.
+* The user want to see our menu and insert his favoiruite meal 
 * The user wants to know if there are any problems or error such as noresults found, not found page, server internal error and empty input.
 
 ## Architecture
