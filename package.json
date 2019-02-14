@@ -9,7 +9,7 @@
   "scripts": {
     "test": "NODE_ENV=test node test/testQuery.js | tap-spec",
     "server": "node test/servertest.js | tap-spec",
-    "start": "node ./src/server.js"
+    "start": "node ./src/database/db_build.js && node ./src/server.js"
   },
   "author": "",
   "license": "ISC",
