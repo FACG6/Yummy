@@ -11,6 +11,7 @@ const build_db = (cb)=>{
         cb(null, result);
     });
 }
+build_db(() => console.log('Data base was built succesfully'));
 
 
 module.exports = build_db;
